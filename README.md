@@ -5,28 +5,26 @@ This project analyzes consumer behavior data to identify patterns, trends, and a
 It uses Python for data cleaning, exploratory data analysis (EDA), and visualization.
 
 ## Project Structure
+
+```plaintext
 consumer_project/
-│
-├── data/
-│ ├── raw/ # Unprocessed data files
-│ ├── processed/ # Cleaned data files
-│ └── external/ # Additional reference datasets
-│
-├── notebooks/ # Jupyter notebooks for exploration
-│
-├── src/ # Python source code
-│ ├── init.py
-│ ├── data_prep.py # Data cleaning and transformation functions
-│ ├── analysis.py # Analysis and modeling functions
-│ └── visualization.py # Charts and plots
-│
+├── data/                  # Data files
+│   ├── raw/               # Unprocessed data files
+│   ├── processed/         # Cleaned data files
+│   └── external/          # Additional reference datasets
+├── notebooks/             # Jupyter notebooks for exploration
+├── src/                   # Python source code
+│   ├── __init__.py
+│   ├── data_prep.py       # Data cleaning and transformation functions
+│   ├── analysis.py        # Analysis and modeling functions
+│   └── visualization.py   # Charts and plots
 ├── reports/
-│ ├── figures/ # Generated plots/images
-│ └── summary.md # Key findings
-│
-├── data_dictionary.md # Data definitions
-├── requirements.txt # Dependencies
-└── README.md # Project description
+│   ├── figures/           # Generated plots/images
+│   └── summary.md         # Key findings
+├── data_dictionary.md     # Data definitions
+├── requirements.txt       # Dependencies
+└── README.md              # Project description
+```
 
 ## Getting Started
 
